@@ -17,6 +17,7 @@ apt install -y git && git clone https://github.com/adm1nSQL/channel_post.git && 
 
 * 安装依赖 Python 3.6 以上
 您可以用以下命令，在当前项目目录下运行以快速安装环境：
+
 Windows:
 
 ```

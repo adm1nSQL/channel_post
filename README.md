@@ -32,8 +32,8 @@ pip3 install pyTelegramBotAPI
 
 * 需要修改的地方
 ```shell
-第6-10行、第50行，已做中文注释
-第50行务必将“yige_bot”修改为您自己的bot用户名！！！
+第6-10行，已做中文注释
+第50行，务必将“yige_bot”修改为您自己的bot用户名！！！
 ```
 6-9行的信息您可以从 [@getidsbot](https://t.me/getidsbot) 得到
 

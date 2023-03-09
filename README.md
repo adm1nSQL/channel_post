@@ -1,6 +1,6 @@
 # Stop_Reptile
 
-一个用 Telegram bot api 来做关键词回复的管理平台，主要为防止爬虫过分的爬取资源
+一个用 Telegram bot api 来发布频道消息，并通过bot匹配唯一标识符来发放私密消息的管理工具
 
 ## 快速开始
 
@@ -12,7 +12,7 @@
 
 * 动动你的小手拉取本项目的源码
 ```shell
-apt install -y git && git clone https://github.com/adm1nSQL/stop_reptile.git && cd stop_reptile
+apt install -y git && git clone https://github.com/adm1nSQL/channel_post.git && cd channel_post
 ```
 
 * 安装依赖 Python 3.6 以上

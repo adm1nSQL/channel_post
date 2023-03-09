@@ -18,7 +18,7 @@ def start_auto_reply(message):
     identifier = message.text.replace('/start ', '').strip()
     if identifier in auto_replies:
         if is_subscribed(channel_id, message.from_user.id):
-            reply_text = f'{auto_replies[identifier]}\n\n✅订阅来源<a href=\"{channel_link}\">{channel_name}</a>，搬运转发请带来源！'
+            reply_text = f'{auto_replies[identifier]}\n\n✅订阅来源<a href=\"{channel_link}\"><strong>{channel_name}</strong></a>，搬运转发请带来源！'
             bot.reply_to(message, reply_text, parse_mode='HTML', disable_web_page_preview=True)
 
         else:
@@ -30,7 +30,7 @@ def start_auto_reply(message):
             reply_markup.add(url_button)
             bot.reply_to(message, '请先点击下方按钮关注频道后再尝试获取订阅：', reply_markup=reply_markup)
     else:
-        bot.reply_to(message, f'请从<a href=\"{channel_link}\">{channel_name}</a>获取邀请链接！', parse_mode='HTML', disable_web_page_preview=True)
+        bot.reply_to(message, f'请从<a href=\"{channel_link}\"><strong>{channel_name}</strong></a>获取邀请链接！', parse_mode='HTML', disable_web_page_preview=True)
 
 
 @bot.message_handler(commands=['add'], chat_types=['private'])

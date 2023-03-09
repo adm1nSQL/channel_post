@@ -29,7 +29,7 @@ Linux:
 pip3 install pyTelegramBotAPI
 ```
 
-* 需要修改的地方：第6-10行、第50行，已做中文注释，6-19行的信息您可以从 [@getidsbot](https://t.me/getidsbot) 得到，第50行务必修改为您自己的bot链接，将https://t.me/yige_bot中的yige_bot替换为您自己的bot用户名
+* 需要修改的地方：第6-10行、第50行，已做中文注释，6-19行的信息您可以从 [@getidsbot](https://t.me/getidsbot) 得到，第50行务必修改为您自己的bot链接，将yige_bot替换为您自己的bot用户名
 
 * 运行
 ```shell

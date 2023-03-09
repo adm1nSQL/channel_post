@@ -1,4 +1,4 @@
-# Stop_Reptile
+# Channel_Post
 
 一个用 Telegram bot api 来发布频道消息，并通过bot匹配唯一标识符来发放私密消息的管理工具
 
